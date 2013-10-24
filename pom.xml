@@ -236,11 +236,8 @@
 			<version>1.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>nl.jorncruijsen.guildwars2</groupId>
-			<artifactId>guild-wars-2-api-hook</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		<!-- <dependency> <groupId>nl.jorncruijsen.guildwars2</groupId> <artifactId>guild-wars-2-api-hook</artifactId> 
+			<version>0.0.1-SNAPSHOT</version> </dependency> -->
 
 	</dependencies>
 
