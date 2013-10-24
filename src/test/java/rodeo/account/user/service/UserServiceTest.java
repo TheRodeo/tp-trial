@@ -1,4 +1,4 @@
-package rodeo.account;
+package rodeo.account.user.service;
 
 import static org.fest.assertions.Assertions.assertThat;
 import static org.mockito.Matchers.*;
@@ -16,6 +16,10 @@ import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+
+import rodeo.account.dao.pojo.Account;
+import rodeo.account.dao.service.AccountRepository;
+import rodeo.account.user.service.UserService;
 
 @RunWith(MockitoJUnitRunner.class)
 public class UserServiceTest {

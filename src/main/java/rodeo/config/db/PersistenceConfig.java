@@ -1,4 +1,4 @@
-package rodeo.config;
+package rodeo.config.db;
 
 import java.util.Properties;
 

@@ -1,4 +1,4 @@
-package rodeo.signup;
+package rodeo.signup.controller;
 
 import javax.validation.Valid;
 
@@ -8,8 +8,12 @@ import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import rodeo.account.*;
+import rodeo.account.dao.pojo.Account;
+import rodeo.account.dao.service.AccountRepository;
+import rodeo.account.user.service.*;
+import rodeo.signup.web.pojo.SignupForm;
 import rodeo.support.web.*;
+import rodeo.support.web.service.MessageHelper;
 
 @Controller
 public class SignupController {

@@ -1,4 +1,4 @@
-package rodeo.account;
+package rodeo.account.dao.pojo;
 
 import javax.persistence.*;
 

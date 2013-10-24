@@ -1,4 +1,4 @@
-package rodeo.config;
+package rodeo.config.server.startup;
 
 import java.util.*;
 

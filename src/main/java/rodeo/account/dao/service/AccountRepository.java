@@ -1,4 +1,4 @@
-package rodeo.account;
+package rodeo.account.dao.service;
 
 import javax.persistence.*;
 import javax.inject.Inject;
@@ -6,6 +6,8 @@ import javax.inject.Inject;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.security.crypto.password.PasswordEncoder;
+
+import rodeo.account.dao.pojo.Account;
 
 @Repository
 @Transactional(readOnly = true)

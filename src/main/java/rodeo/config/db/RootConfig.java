@@ -1,4 +1,4 @@
-package rodeo.config;
+package rodeo.config.db;
 
 import org.springframework.context.annotation.*;
 import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;

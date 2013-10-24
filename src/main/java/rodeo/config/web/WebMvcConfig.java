@@ -1,4 +1,4 @@
-package rodeo.config;
+package rodeo.config.web;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package rodeo.error;
+package rodeo.error.controller.advice;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.context.request.WebRequest;

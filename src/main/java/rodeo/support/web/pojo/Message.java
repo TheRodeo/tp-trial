@@ -1,4 +1,4 @@
-package rodeo.support.web;
+package rodeo.support.web.pojo;
 
 /**
  * A message to be displayed in web context. Depending on the type, different style will be applied.

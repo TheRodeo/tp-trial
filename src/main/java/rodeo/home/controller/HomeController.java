@@ -1,4 +1,4 @@
-package rodeo.home;
+package rodeo.home.controller;
 
 import java.security.Principal;
 

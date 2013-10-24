@@ -1,8 +1,8 @@
-package rodeo.signup;
+package rodeo.signup.web.pojo;
 
 import org.hibernate.validator.constraints.*;
 
-import rodeo.account.Account;
+import rodeo.account.dao.pojo.Account;
 
 public class SignupForm {
 

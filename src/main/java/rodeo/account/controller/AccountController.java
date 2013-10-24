@@ -1,4 +1,4 @@
-package rodeo.account;
+package rodeo.account.controller;
 
 import org.slf4j.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,6 +7,9 @@ import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+
+import rodeo.account.dao.pojo.Account;
+import rodeo.account.dao.service.AccountRepository;
 
 @Controller
 @Secured("ROLE_USER")

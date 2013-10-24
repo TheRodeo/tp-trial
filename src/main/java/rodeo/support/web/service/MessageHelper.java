@@ -1,9 +1,11 @@
-package rodeo.support.web;
+package rodeo.support.web.service;
 
-import static rodeo.support.web.Message.MESSAGE_ATTRIBUTE;
+import static rodeo.support.web.pojo.Message.MESSAGE_ATTRIBUTE;
 
 import org.springframework.ui.Model;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import rodeo.support.web.pojo.Message;
 
 public final class MessageHelper {
 

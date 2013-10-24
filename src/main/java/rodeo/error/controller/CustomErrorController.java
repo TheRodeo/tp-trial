@@ -1,4 +1,4 @@
-package rodeo.error;
+package rodeo.error.controller;
 
 import java.text.MessageFormat;
 

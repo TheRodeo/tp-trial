@@ -1,11 +1,11 @@
-package rodeo.config;
+package rodeo.config.security;
 
 import org.springframework.context.annotation.*;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.crypto.password.StandardPasswordEncoder;
 import org.springframework.security.web.authentication.rememberme.TokenBasedRememberMeServices;
 
-import rodeo.account.UserService;
+import rodeo.account.user.service.UserService;
 
 @Configuration
 @ImportResource(value = "classpath:spring-security-context.xml")
