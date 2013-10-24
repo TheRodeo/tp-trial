@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 import rodeo.base.dao.pojos.Discipline;
-import rodeo.base.ws.pojos.SpidyDisciplineResult;
 import rodeo.discipline.service.DisciplineServiceImpl;
 import de.chemist.gw2.SpidyException;
 import de.chemist.gw2.SpidyFormat;
@@ -34,7 +33,7 @@ public class UpdateController {
 	@RequestMapping(value = "see/disciplines", method = RequestMethod.GET)
 	@ResponseStatus(value = HttpStatus.OK)
 	@ResponseBody
-	public SpidyDisciplineResult seeDisciplines(final UserDetails userDetails) throws SpidyException {
+	public List<Discipline> seeDisciplines(final UserDetails userDetails) throws SpidyException {
 		return SpidyWrapper.getDisciplines(SpidyFormat.JSON);
 	}
 
